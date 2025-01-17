@@ -95,5 +95,6 @@ def AtelierD3WebUI(client, address: str = None, port: int = None, browser: bool 
         )
         
     except Exception as e:
-        client.logger.error(f"Startup error: {e}")
-        raise RuntimeError(f"Startup error: {e}")
+        error = f"Startup error: {e}"
+        client.logger.error(error)
+        raise RuntimeError(error)
