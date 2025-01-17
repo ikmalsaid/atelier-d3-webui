@@ -19,7 +19,7 @@ classifiers = [
 ]
 dependencies = [
   "atelier-d3-client",
-  "gradio==4.38.1"
+  "gradio==4.38.1",
   "fastapi==0.112.4"
 ]
 keywords = [
